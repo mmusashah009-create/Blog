@@ -1,0 +1,118 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+    body, html {
+      background-color: black;
+      color: white;
+      font-family: 'Montserrat';
+      overflow-x: hidden;
+    }
+
+    /* Navbar */
+    .navbar {
+      background-color: black;
+    }
+    .navbar-brand, .nav-link {
+      color: white !important;
+      font-family: 'Montserrat';
+    }
+
+    /* Hero Section */
+    #img4 {
+      margin-left: 800px;
+      margin-top: -300px;
+      transition: transform 0.5s ease-in, opacity 0.5s ease-in;
+    }
+    #img4:hover {
+      transform: scale(1.1);
+      opacity: 0.8;
+    }
+
+    #text2, #text3, #text4 {
+      margin-left: 150px;
+      font-family: 'Montserrat';
+    }
+
+    /* Divider */
+    #hr {
+      color: rgb(78, 76, 76);
+      opacity: 0.3;
+      margin-top: 50px;
+    }
+
+    /* Stats Section */
+    #text5, #text6, #text7, #text8, #text9, #text10, #text11, #text12, #text13 {
+      font-family: 'Montserrat';
+    }
+
+    /* FutureTech Features */
+    #div1 {
+      background-color: #131212;
+      padding-top: 100px;
+      text-align: center;
+    }
+
+    /* Boxes */
+    .transparent-box {
+      background-color: transparent;
+      border: 1px solid #333435;
+      border-radius: 8px;
+      padding: 20px;
+      color: white;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #111;
+      color: grey;
+      padding: 50px 20px;
+      margin-top: 100px;
+    }
+
+    .footer-title {
+      color: white;
+      font-weight: 600;
+    }
+
+    /* Hover animations */
+    #img5, .logo {
+      transition: transform 0.5s ease-in, opacity 0.5s ease-in;
+    }
+    #img5:hover, .logo:hover {
+      transform: scale(1.1);
+      opacity: 0.8;
+    }
+
+    /* ✅ Responsive Adjustments */
+    @media (max-width: 992px) {
+      #img4 {
+        margin: 0 auto;
+        display: block;
+        width: 80%;
+        height: auto;
+      }
+      #text2, #text3, #text4 {
+        margin-left: 0;
+        text-align: center;
+      }
+      #div1 {
+        text-align: center;
+      }
+      #text5, #text6, #text7, #text8, #text9, #text10, #text11, #text12, #text13 {
+        text-align: center;
+        margin-left: 0;
+      }
+    }
+
+    @media (max-width: 576px) {
+      #text3 {
+        font-size: 1.4rem;
+      }
+      #text4 {
+        font-size: 0.9rem;
+      }
+      #img4 {
+        width: 100%;
+      }
+    }
