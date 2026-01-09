@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ello Gitgit push -u origin master
+=======
+Ello Git!!
+>>>>>>> bb33d09e66d8744c09415e1152a17359671fa43a
